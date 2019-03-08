@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registraciya</title>
+</head>
+<body>
+	<h1 align="center" id="st1">Регистрация</h1>
+	<ul type="square">
+		<li><a href="str1.html">Страница 1</a></li>
+		<li><a href="str2.html">Страница 2</a></li>
+		<li><a href="str3.html">Страница 3</a></li>
+	</ul>
+	<form action="#" method="posts" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Форма регистрации</legend>
+			<p>
+				<label for="login">Введите логин</label>
+				<input type="search" required="" id="login" placeholder="Логин" minlength="5" maxlength="10">
+			</p>
+			<p>
+				<label for="email">Введите email</label>
+				<input type="email" required="" id="email" placeholder="Email">
+			</p>
+			<p>
+				<label for="password">Введите пароль</label>
+				<input type="password" required="" id="password" placeholder="Пароль" minlength="7" maxlength="15">
+			</p>
+			<p>
+				<label for="password2">Подтвердите пароль</label>
+				<input type="password" required="" id="password2" placeholder="Подтверждение пароля" minlength="7" maxlength="15">
+			</p>
+			<p>
+				<label for="password">Загрузите вашу фотографию!</label>
+				<p>
+				<input type="file" accept="image/*">	
+				</p>
+			</p>
+			<input type="submit" value="Регистрация">
+		</fieldset>
+	</form>
+</body>
+</html>
