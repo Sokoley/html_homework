@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Личные данные</title>
+</head>
+<body>
+	<form action="#" method="" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Личные данные</legend>
+			<p>
+				<label for="org">Организация</label>
+				<input type="text" id="org" value="54 web-studio" disabled="">
+			</p>
+			<p>
+				<label for="dol">Претендуемая должность</label>
+				<input type="text" id="dol" value="Web-разработчик" disabled="">
+			</p>
+			<p>
+				<label>Выберите вашу фотографию</label>
+				<input type="file" accept="image/*" alt="Проверьте соединение с интернетом" required="">
+			</p>
+			<p>
+				<label for="Surname">Фамилия</label>
+				<input type="text" required="" id="Surname" autofocus="">
+				<label for="Name">Имя</label>
+				<input type="text" required="" id="Name">
+				<label for="Patronymic">Отчество</label>
+				<input type="text" required="" id="Patronymic">
+			</p>
+			<p>
+				<label for="email">Email</label>
+				<input type="email" required="" id="email">
+			</p>
+			<p>
+				<label for="d">Дата рождения</label>
+				<input type="date" id="d" required="">
+			</p>
+			<p>
+				<label for="num">Число полных лет</label>
+				<input type="number" id="num" min="18" required="">
+			</p>
+			<p>
+				<label>Ваш пол</label>
+				<select name="select" required="">
+					<option value="1">М</option>
+					<option value="2">Ж</option>
+				</select>
+			</p>
+			<fieldset>
+				<legend>Какими инструментами вы владеете?</legend>
+				<p>
+					<label><input type="checkbox" name="answer">HTML/CSS</label>
+				</p>
+				<p>
+					<label><input type="checkbox" name="answer">PHP</label>
+				</p>
+				<p>
+					<label><input type="checkbox" name="answer">JS</label>
+				</p>
+				<p>
+					<label><input type="checkbox" name="answer">MYSQL</label>
+				</p>
+				<p>
+					<label><input type="checkbox" name="answer">Другое</label>
+					<input type="text" placeholder="Укажите">
+				</p>
+			</fieldset>
+			<p>
+				<label for="t">Укажите время, в которое Вам будет удобно посещать офис</label>
+				<input type="time" id="t" min="9:00" max="20:00">
+			</p>
+
+			<fieldset>
+				<legend>Откуда вы узнали о нашей компании?</legend>
+				<p>
+					<label><input type="radio" name="check[]">Социальные сети</label>
+				</p>
+				<p>
+					<label><input type="radio" name="check[]">От друзей</label>
+				</p>
+				<p>
+					<label><input type="radio" name="answer">Телевизионная реклама</label>
+				</p>
+				<p>
+					<label><input type="radio" name="check[]">Затрудняюсь ответить</label>
+				</p>
+				<p>
+					<label><input type="radio" name="check[]">Другое</label>
+					<input type="text" placeholder="Укажите">
+				</p>
+			</fieldset>
+			<p>
+				<label for="osebe">Напишите что-нибудь о себе (необязательное поле)</label>
+				<br>
+				<textarea cols="60" rows="7" placeholder="Информация о вас" wrap="on" id="osebe"></textarea>
+			</p>
+			<p>
+				<button type="submit" value="some_value" name="submit_button">Отправить данные формы</button>
+			</p>
+			<p>
+				<button type="reset">Очистка данных формы</button>
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>
