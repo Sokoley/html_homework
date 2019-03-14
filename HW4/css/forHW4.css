@@ -1,0 +1,18 @@
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px, 30px;
+	height: 40px;
+	width: 80px;
+	background: orange;
+	margin: 30px;
+
+}
+
+body {
+	background-image: url(images/shapka.png) ;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-attachment: fixed;
+	background-size: 550px;
+}
