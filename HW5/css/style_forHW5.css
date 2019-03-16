@@ -1,0 +1,48 @@
+@import url("grid_forHW5.css");
+
+.TnaK {
+    position:relative;
+}
+.TnaK h1 {
+	display:inline-block;
+    position:absolute;
+    top:50%;   
+    left:50%;
+    color: white;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+ul.slider {
+	padding: 0;
+	margin: 0 0 30px;
+	list-style-type: none;
+}
+
+.slider li {
+	display: none;	
+}
+
+.slider li.active {
+	display: block;
+}
+
+.card {
+	border: 1px solid;	
+	height: 300px;
+	margin: 5px;
+}
+
+.cards {
+	margin-bottom: 30px;
+	
+}
+
+.big {
+	border: 1px solid;	
+	height: 924px;
+	margin: 5px;
+}
+
