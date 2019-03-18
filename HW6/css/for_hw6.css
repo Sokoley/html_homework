@@ -1,0 +1,55 @@
+.hide {
+	display: none;
+}
+
+.main {
+	width: 300px;
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+
+.main li {
+	list-style: none;
+  	margin-bottom: -1px;
+ 	padding: 14px;
+  	color: navy;
+  	border: 1px solid lightsalmon;
+}
+
+.main li:hover {
+	background-color: khaki;
+}
+
+ul.hide > li:hover {
+	background-color: darkkhaki;
+}
+
+ul.main > li:hover > ul.hide {
+    display: block;
+}
+
+.close {
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 5px;
+	text-decoration: none;
+}
+.close:target { 
+	opacity: 0;
+}
+
+#okno {
+	display: none;
+	position: absolute;
+	top: 300px;
+	left: 500px;
+	right: 500px;
+	bottom: 300px;
+	background: khaki;
+}
+
+#okno:target {
+	display: block;
+}
+
